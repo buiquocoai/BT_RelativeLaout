@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtRed"
+        android:textSize="40sp"
+        android:text="RED"
+        android:background="#DA0303"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@+id/txtRed"
+        android:id="@+id/txtGreen"
+        android:textSize="40sp"
+        android:text="Green"
+        android:background="#23DA03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@+id/txtGreen"
+        android:id="@+id/txtBlue"
+        android:textSize="40sp"
+        android:text="Blue"
+        android:background="#038FDA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_below="@+id/txtBlue"
+        android:id="@+id/txtOrange"
+        android:textSize="40sp"
+        android:text="Orange"
+        android:background="#FFC107"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@+id/txtOrange"
+        android:id="@+id/txtGray"
+        android:textSize="40sp"
+        android:text="Gray"
+        android:background="#635D5D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/txtGray"
+        android:id="@+id/txtPink"
+        android:textSize="40sp"
+        android:text="Pink"
+        android:background="#DA03BD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+</RelativeLayout>
